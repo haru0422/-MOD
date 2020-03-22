@@ -1,0 +1,33 @@
+name: wurzite mining
+description: 昔はウルツァイト採掘場にされていました今は汚染され使用されていません   
+loadout: basicFoundation
+startingItems: [
+  copper/200
+  lead/300
+]
+conditionWave: 10
+launchPeriod: 10
+requirements: [
+  {
+    type: ZoneWave
+    zone: groundZero
+    wave: 90
+  }
+  {
+    type: Unlock
+    block: Wurtzite alloy making machine
+  }
+  {
+    type: Unlock
+    block: solar-panel
+  }
+]
+resources: [
+  copper
+  lead
+  coal
+  sand
+  titanium
+  thorium
+  Red-ore
+]
