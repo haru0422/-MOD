@@ -1,5 +1,7 @@
 # MindustryMod-Template
-Mindustry Mod Template
-日本人向け(英語の対応が難しいため)
+ore mod
+ver.1ウルツツァイト、ウルツライト合金、ウルツァイト合金製造機、ウルツァイトの壁、追加
 
-フォルダを削除したい場合はフォルダ内の".gitkeep"を消してください。
+
+
+
