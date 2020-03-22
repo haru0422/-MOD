@@ -1,0 +1,38 @@
+type: GenericCrafter
+name: ウルツァイト合金製造機
+description: 1番の強度を誇る金属が作り出せます
+health: 150
+itemCapacity:100
+size: 3
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 600
+updateEffect: smeltsmoke
+consumes: {
+  power: 20
+  items: {
+    items: [
+      copper/12
+      lead/15
+      titanium/15
+      silicon/12
+      Red-ore/10
+    ]
+  }
+  liquid: {
+			liquid: slag
+			amount: 0.05
+  }
+}
+requirements: [
+  lead/200
+  thorium/150
+  silicon/200
+  surge-alloy/20
+]
+category: crafting
+research: alloy-smelter
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: Wurtzite-alloy/2
