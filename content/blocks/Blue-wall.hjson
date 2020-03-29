@@ -1,0 +1,13 @@
+{
+	"type": "Wall",
+	"name": "ローズンデーライトの壁",
+	"description": "2番目に硬い金属で作った壁です.",
+	"health": 9500,
+	"size": 2,
+	"buildCostMultiplier": 1,
+	"requirements": [
+		{ "item": "Blue-alloy", "amount": 45 }
+	],
+	"research": "titanium-wall",
+	"category": "defense"
+}

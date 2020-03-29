@@ -2,7 +2,7 @@
 	"type": "Wall",
 	"name": "ウルツライトの壁",
 	"description": "1番硬い金属で作った壁です.",
-	"health": 30000,
+	"health": 10000,
 	"size": 2,
 	"buildCostMultiplier": 1,
 	"requirements": [
