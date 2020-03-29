@@ -1,0 +1,15 @@
+name: ウルツボールド
+description: ウルツライト合金で作られたボールドです。
+type: Vault
+itemCapacity: 30000
+hasItems: true
+health: 10000
+size: 3
+requirements: [
+  silicon/700
+  titanium/500
+  graphite/40
+  Wurtzite-alloy/50
+]
+category: effect
+research: vault
