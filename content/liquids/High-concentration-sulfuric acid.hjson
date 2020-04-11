@@ -1,0 +1,9 @@
+{
+	"name": "高濃度硫酸",
+	"description": "危険です！。",
+   "Explosive:l": 9
+	"temperature": 0.8,
+	"viscosity": 0.1,
+	"effect": "burning",
+	"color": "4C0099"
+}

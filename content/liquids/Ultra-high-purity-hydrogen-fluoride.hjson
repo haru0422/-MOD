@@ -1,0 +1,8 @@
+{
+	"name": "超高純度フッ化水素",
+	"description": "混ぜるな危険！。",
+	"temperature": 0.2,
+	"viscosity": 0.1,
+	"effect": "burning",
+	"color": "CCFFCC"
+}

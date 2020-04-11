@@ -1,0 +1,8 @@
+{
+	"name": "フッ化水素",
+	"description": "半導体などの洗浄に使われる劇薬です。",
+	"temperature": 0.2,
+	"viscosity": 0.1,
+	"effect": "burning",
+	"color": "80FF00"
+}
