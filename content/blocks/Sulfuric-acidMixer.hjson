@@ -1,0 +1,35 @@
+{
+	"type": "GenericCrafter",
+	"name": "硫酸ミキサー",
+	"description": "硫酸作成する.",
+	"outputLiquid": {"liquid": "Sulfuric-acid", "amount": 42.0},
+	"size": 2,
+	"hasPower": true,
+	"hasItems": true,
+	"itemCapacity": 10,
+	"liquidCapacity": 30.0,
+	"craftTime": 60,
+	"updateEffect": "none",
+	"consumes": {
+		"power": 1.0,
+		"items": {
+			"items": [
+				{ "item": "Tulfur", "amount": 1 }
+			]
+		},
+		"liquid": {
+			"liquid": "water",
+			"amount": 0.02
+		}
+	},
+	"requirements": [
+		{ "item": "copper", "amount": 50 },
+		{ "item": "lead", "amount": 50 },
+		{ "item": "thorium", "amount": 25 },
+		{ "item": "graphite", "amount": 10 }
+	],
+	"category": "crafting",
+	"research": "alloy-smelter",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

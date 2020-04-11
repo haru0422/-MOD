@@ -1,0 +1,30 @@
+type: GenericCrafter
+name: フッ化カルシウム製造機
+description: フッ化カルシウムを作り出す
+health: 1000
+liquidCapacity: 30
+itemCapacity:1001
+size: 1
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 60
+updateEffect: smeltsmoke
+consumes: {
+  power: 50
+  items: {
+    items: [
+      Fluorine/1
+      Calcium/1
+    ]
+  }
+}
+requirements: [
+  titanium/20
+  lead/50
+]
+category: crafting
+research: duo
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: Calcium-luoride/5

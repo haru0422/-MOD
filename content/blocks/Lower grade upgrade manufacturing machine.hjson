@@ -1,0 +1,39 @@
+type: GenericCrafter
+name: 下級アップグレードモジュール製造機
+description: 危険です触らないでください。
+health: 150
+itemCapacity:100
+size: 3
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 300
+updateEffect: smeltsmoke
+consumes: {
+  power: 20
+  items: {
+    items: [
+      copper/6
+      lead/7
+      titanium/8
+      silicon/6
+      phase-fabric/3
+      plastanium/3
+    ]
+  }
+  liquid: {
+			liquid:Hydrogen-fluoride   
+			amount: 0.10
+  }
+}
+requirements: [
+  lead/200
+  thorium/150
+  silicon/200
+  surge-alloy/10
+]
+category: crafting
+research: alloy-smelter
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: Lower-grade-upgrade-module/1

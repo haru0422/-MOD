@@ -1,0 +1,35 @@
+{
+	"type": "GenericCrafter",
+	"name": "フッ化水素ミキサー,
+	"description": "フッ化水素を作成する.",
+	"outputLiquid": {"liquid": "Hydrogen-fluoride", "amount": 20.0},
+	"size": 4,
+	"hasPower": true,
+	"hasItems": true,
+	"itemCapacity": 40,
+	"liquidCapacity": 30.0,
+	"craftTime": 700,
+	"updateEffect": "none",
+	"consumes": {
+		"power": 1.0,
+		"items": {
+			"items": [
+				{ "item": "Calcium-luoride", "amount": 5}
+			]
+		},
+		"liquid": {
+			"liquid": "Sulfuric-acid",
+			"amount": 0.23
+		}
+	},
+	"requirements": [
+		{ "item": "copper", "amount": 100 },
+		{ "item": "lead", "amount": 50 },
+		{ "item": "thorium", "amount": 50 },
+		{ "item": "graphite", "amount": 10 }
+	],
+	"category": "crafting",
+	"research": "Sulfuric-acidMixer",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

@@ -1,0 +1,33 @@
+type: GenericCrafter
+name: 鉱石分解機フッ素
+description: 高温が出るため冷却水が大量に必要
+health: 150
+liquidCapacity: 300
+itemCapacity:100
+size: 3
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 560
+updateEffect: smeltsmoke
+consumes: {
+  power: 16
+  items: {
+    items: [
+      lead/10
+    ]
+  }
+  liquid: {
+			liquid: cryofluid
+			amount: 0.3
+  }
+}
+requirements: [
+  lead/27
+  surge-alloy/3
+]
+category: crafting
+research: alloy-smelter
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: Fluorine/1

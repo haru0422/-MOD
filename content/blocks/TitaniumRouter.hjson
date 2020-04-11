@@ -1,0 +1,18 @@
+type:Router
+category:distribution
+name: チタンルーター
+description: ルーターをチタンで強化したものです。
+health: 240
+size: 1
+requirements: [
+titanium/5
+copper/2
+lead/2
+]
+solid: true
+update: true
+hasItems: true
+itemCapacity:1
+group: transportation
+uploadable: false
+research: router

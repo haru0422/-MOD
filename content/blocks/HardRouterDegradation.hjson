@@ -1,0 +1,18 @@
+type:Router
+category:distribution
+name: ローズンルータ
+description:ルーターをローズンデーライトで強化したものです。
+health: 910
+size: 1
+requirements: [
+Blue-alloy/1
+copper/2
+lead/2
+]
+solid: true
+update: true
+hasItems: true
+itemCapacity:1
+group: transportation
+uploadable: false
+research: router
