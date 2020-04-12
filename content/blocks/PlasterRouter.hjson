@@ -1,0 +1,18 @@
+type:Router
+category:distribution
+name: プラスタルーター
+description: ルーターをプラスタニウムで強化したものです。
+health: 710
+size: 1
+requirements: [
+plastanium/1
+copper/2
+lead/2
+]
+solid: true
+update: true
+hasItems: true
+itemCapacity:1
+group: transportation
+uploadable: false
+research: router
