@@ -2,7 +2,7 @@
 	"type": "GenericCrafter",
 	"name": "超高純度フッ化水素ミキサー"
 	"description": "超高純度フッ化水素を作成する.",
-	"outputLiquid": {"liquid": "Ultra-high-purity-hydrogen-fluoride", "amount": 0.4},
+	"outputLiquid": {"liquid": "Ultra-high-purity-hydrogen-fluoride", "amount": 150},
 	"size": 4,
 	"hasPower": true,
 	"hasItems": true,
