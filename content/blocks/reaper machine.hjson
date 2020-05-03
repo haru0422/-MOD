@@ -1,0 +1,29 @@
+type: UnitFactory
+localizedName: リーパー製造機
+description: エナジウムを動力として動いています
+health: 5300
+produceTime: 3600
+produceTime: 1
+maxSpawn: 1
+unitType: reaper
+hasPower: true
+itemCapacity: 200
+consumes: {
+  power: 90
+  items: {
+    items: [
+      Ten-thousandCrystal/2
+      silicon/150
+    ]
+  }
+}
+size: 6
+category: units
+requirements: [
+  Upgrade-module/50
+  silicon/3000
+  titanium/3000
+  Condenser/2000
+  lead/2000
+]
+research: phantom-factory

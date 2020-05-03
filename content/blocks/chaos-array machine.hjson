@@ -1,0 +1,29 @@
+type: UnitFactory
+localizedName: ケアスアレー製造機
+description: エナジウムを動力として動いています
+health: 5300
+produceTime: 3600
+produceTime: 1
+maxSpawn: 1
+unitType: chaos-array
+hasPower: true
+itemCapacity: 200
+consumes: {
+  power: 60
+  items: {
+    items: [
+      Ten-thousandCrystal/1
+      silicon/100
+    ]
+  }
+}
+size: 5
+category: units
+requirements: [
+  Upgrade-module/50
+  silicon/1500
+  titanium/1500
+  Condenser/130
+  lead/900
+]
+research: phantom-factory
