@@ -1,6 +1,6 @@
 name: "MOD"
-displayName: crystalmod
+displayName: Variousmods
 author: "haruki"
 description: "My first mod.This mod will add some blocks."
-version: "1"
+version: "4"
 minGameVersion: "100"
