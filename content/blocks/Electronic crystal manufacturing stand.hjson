@@ -1,0 +1,33 @@
+{
+	"type": "GenericCrafter",
+	"name": "エレクトロニッククリスタル製造台",
+	"description": "エナジウムクリスタルを固めます",
+	"outputItem": {"item": "Electronic-crystal", "amount": 1},
+	"size": 2,
+	"hasPower": true,
+	"hasItems": true,
+	"itemCapacity": 10,
+	"craftTime": 600,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 90,
+		"items": {
+			"items": [
+				{ "item": "Endium-crystal", "amount": 10 },
+
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "copper", "amount": 50 },
+		{ "item": "lead", "amount": 80 }, 
+      { "item": "titanium", "amount": 69 },
+{ "item": "Upgrade-module", "amount": 5 },
+
+
+	],
+	"category": "crafting",
+	"research": "pulverizer",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

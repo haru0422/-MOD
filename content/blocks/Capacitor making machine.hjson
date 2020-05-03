@@ -1,0 +1,29 @@
+{
+	"type": "GenericCrafter",
+	"name": "コンデンサー製造機",
+	"description": "基本的なコンデンサーを作ります",
+	"outputItem": {"item": "Condenser", "amount": 1},
+	"size": 2,
+	"hasPower": true,
+	"hasItems": true,
+	"itemCapacity": 10,
+	"craftTime": 180,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 1,
+		"items": {
+			"items": [
+				{ "item": "copper", "amount": 3 },
+				{ "item": "lead", "amount": 5 }
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "copper", "amount": 50 },
+		{ "item": "lead", "amount": 15 },
+	],
+	"category": "crafting",
+	"research": "pulverizer",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

@@ -1,0 +1,34 @@
+type: GenericCrafter
+name: エナジウムクリスタル充電台
+description:クリスタルを充電します
+health: 150
+itemCapacity:100
+size: 3
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 400
+updateEffect: smeltsmoke
+consumes: {
+  power: 17
+  items: {
+    items: [
+      Crystal/5
+    ]
+  }
+  liquid: {
+			liquid: cryofluid
+			amount: 0.1
+  }
+}
+requirements: [
+  lead/5
+  thorium/3
+  silicon/12
+  Lower-grade-upgrade-module/2
+]
+category: crafting
+research: alloy-smelter
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: Endium-crystal/1

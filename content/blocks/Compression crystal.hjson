@@ -1,0 +1,33 @@
+{
+	"type": "GenericCrafter",
+	"name": "1万圧縮エナジウムクリスタル",
+	"description": "エナジウムクリスタルを固めます",
+	"outputItem": {"item": "Ten-thousandCrystal", "amount": 1},
+	"size": 2,
+	"hasPower": true,
+	"hasItems": true,
+	"itemCapacity": 20000,
+	"craftTime": 60,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 18,
+		"items": {
+			"items": [
+				{ "item": "Endium-crystal", "amount": 10000 },
+
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "copper", "amount": 130 },
+		{ "item": "lead", "amount": 120 }, 
+      { "item": "titanium", "amount": 200 },
+{ "item": "Upgrade-module", "amount": 10 },
+
+
+	],
+	"category": "crafting",
+	"research": "alloy-smelter",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

@@ -1,0 +1,28 @@
+{
+	"type": "SingleTypeGenerator",
+	"name": "エレクトロニック発電機",
+	"description": "エレクトロニッククリスタルを使って莫大な電力を放電します。",
+ "health":950,
+	"size": 3,
+	"hasPower": true,
+	"hasItems": true,
+	"itemDuration": 5772,
+	"powerProduction": 16666.66667,
+  buildCostMultiplier: 0.01
+	"consumes": {
+		     "items": {
+			"items": [
+				{ "item": "Electronic-crystal", "amount": 1 }
+			],
+			"optional": true
+		},
+	},
+	"requirements": [
+ 		Condenser/5
+   silicon/50
+   graphite/60
+   copper/90
+	],
+	"category": "power",
+	"research": "power-node"
+}
