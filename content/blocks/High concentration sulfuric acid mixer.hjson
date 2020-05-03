@@ -1,0 +1,35 @@
+{
+	"type": "GenericCrafter",
+	"name": "高濃度硫酸ミキサー",
+	"description": "高濃度硫酸作成する.",
+	"outputLiquid": {"liquid": "High-concentration-sulfuric acid", "amount": 20.0},
+	"size": 2,
+	"hasPower": true,
+	"hasItems": true,
+	"itemCapacity": 40,
+	"liquidCapacity": 30.0,
+	"craftTime": 60,
+	"updateEffect": "none",
+	"consumes": {
+		"power": 1.0,
+		"items": {
+			"items": [
+				{ "item": "Tulfur", "amount": 6}
+			]
+		},
+		"liquid": {
+			"liquid": "water",
+			"amount": 0.23
+		}
+	},
+	"requirements": [
+		{ "item": "copper", "amount": 100 },
+		{ "item": "lead", "amount": 50 },
+		{ "item": "thorium", "amount": 50 },
+		{ "item": "graphite", "amount": 10 }
+	],
+	"category": "crafting",
+	"research": "Sulfuric-acidMixer",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}
